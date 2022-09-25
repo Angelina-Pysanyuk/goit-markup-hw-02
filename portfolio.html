@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Портфоліо</title>
   </head>
   <body>
     <!-- Navigation -->
-    <header>
-      <a href="#" class="logo-header"><span>Web</span>Studio</a>
+    <header class="header">
+      <a href="#" class="logo-header"><span class="accent">Web</span>Studio</a>
       <nav>
         <ul class="list">
           <li><a class="nav-page" href="./index.html">Студія</a></li>
@@ -37,92 +37,99 @@
         </li>
       </ul>
     </header>
+    <!-- Portfolio Works -->
     <main>
-      <!-- Portfolio Works -->
-      <ul class="list">
-        <li><button type="button" class="filter-button">Усі</button></li>
-        <li><button type="button" class="filter-button">Веб-сайти</button></li>
-        <li><button type="button" class="filter-button">Додатки</button></li>
-        <li><button type="button" class="filter-button">Дизайн</button></li>
-        <li><button type="button" class="filter-button">Маркетинг</button></li>
-      </ul>
-      <ul class="list">
-        <li>
-          <a>
-            <img src="./images/techno.jpeg" alt="laptop opened" width="370" />
-            <h1 class="sample-title">Технокряк</h1>
-            <p class="sample-description">Веб-сайт</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img
-              src="./images/New-Orlean.jpeg"
-              alt="two men playing basketball"
-              width="370"
-            />
-            <h1 class="sample-title">New Orlean vs Golden Star</h1>
-            <p class="sample-description">Дизайн</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img
-              src="./images/Seafood.jpeg"
-              alt="restaurant's logo"
-              width="370"
-            />
-            <h1 class="sample-title">Ресторан Seafood</h1>
-            <p class="sample-description">Додаток</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./images/Prime.jpeg" alt="headphones" width="370" />
-            <h1 class="sample-title">Проєкт Prime</h1>
-            <p class="sample-description">Маркетинг</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./images/Boxes.jpeg" alt="two boxes" width="370" />
-            <h1 class="sample-title">Проєкт Boxes</h1>
-            <p class="sample-description">Додаток</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./images/Inspiration.jpeg" alt="monitor" width="370" />
-            <h1 class="sample-title">Inspiration has no Borders</h1>
-            <p class="sample-description">Веб-сайт</p></a
-          >
-        </li>
-        <li>
-          <a>
-            <img src="./images/Limited.jpeg" alt="book opened" width="370" />
-            <h1 class="sample-title">Видання Limited Edition</h1>
-            <p class="sample-description">Дизайн</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./images/LAB.jpeg" alt="label" width="370" />
-            <h1 class="sample-title">Проєкт LAB</h1>
-            <p class="sample-description">Маркетинг</p>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img
-              src="./images/Growing-Business.jpeg"
-              alt="person typing on a laptop"
-              width="370"
-            />
-            <h1 class="sample-title">Growing Business</h1>
-            <p class="sample-description">Додаток</p>
-          </a>
-        </li>
-      </ul>
+      <section>
+        <ul class="list">
+          <li><button type="button" class="filter-button">Усі</button></li>
+          <li>
+            <button type="button" class="filter-button">Веб-сайти</button>
+          </li>
+          <li><button type="button" class="filter-button">Додатки</button></li>
+          <li><button type="button" class="filter-button">Дизайн</button></li>
+          <li>
+            <button type="button" class="filter-button">Маркетинг</button>
+          </li>
+        </ul>
+        <h1 class="secondary-title">Наші роботи</h1>
+        <ul class="list">
+          <li>
+            <a>
+              <img src="./images/techno.jpeg" alt="laptop opened" width="370" />
+              <h2 class="sample-title">Технокряк</h2>
+              <p class="sample-description">Веб-сайт</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                src="./images/New-Orlean.jpeg"
+                alt="two men playing basketball"
+                width="370"
+              />
+              <h2 class="sample-title">New Orlean vs Golden Star</h2>
+              <p class="sample-description">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                src="./images/Seafood.jpeg"
+                alt="restaurant's logo"
+                width="370"
+              />
+              <h2 class="sample-title">Ресторан Seafood</h2>
+              <p class="sample-description">Додаток</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./images/Prime.jpeg" alt="headphones" width="370" />
+              <h2 class="sample-title">Проєкт Prime</h2>
+              <p class="sample-description">Маркетинг</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./images/Boxes.jpeg" alt="two boxes" width="370" />
+              <h2 class="sample-title">Проєкт Boxes</h2>
+              <p class="sample-description">Додаток</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./images/Inspiration.jpeg" alt="monitor" width="370" />
+              <h2 class="sample-title">Inspiration has no Borders</h2>
+              <p class="sample-description">Веб-сайт</p></a
+            >
+          </li>
+          <li>
+            <a>
+              <img src="./images/Limited.jpeg" alt="book opened" width="370" />
+              <h2 class="sample-title">Видання Limited Edition</h2>
+              <p class="sample-description">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./images/LAB.jpeg" alt="label" width="370" />
+              <h2 class="sample-title">Проєкт LAB</h2>
+              <p class="sample-description">Маркетинг</p>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                src="./images/Growing-Business.jpeg"
+                alt="person typing on a laptop"
+                width="370"
+              />
+              <h2 class="sample-title">Growing Business</h2>
+              <p class="sample-description">Додаток</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
